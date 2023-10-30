@@ -7,13 +7,14 @@ import "firebase/compat/firestore";
 
 // Configuração do Firebase com as credenciais do projeto
 const firebaseConfig = {
-  apiKey: "SUA_API_KEY",
-  authDomain: "SEU_DOMÍNIO_AUTH",
-  projectId: "SEU_PROJECT_ID",
-  storageBucket: "SEU_STORAGE_BUCKET",
-  messagingSenderId: "SEU_MESSAGING_SENDER_ID",
-  appId: "SEU_APP_ID",
+  apiKey: "AIzaSyBhWyk_w3732WzODhZwmWXzB7xZHyIjRHE",
+  authDomain: "whatss-c1477.firebaseapp.com",
+  projectId: "whatss-c1477",
+  storageBucket: "whatss-c1477.appspot.com",
+  messagingSenderId: "292227071334",
+  appId: "1:292227071334:web:4c3cd12cce60ac29cc5ca7"
 };
+
 
 // Inicializa o aplicativo Firebase com a configuração fornecida
 const app = firebase.initializeApp(firebaseConfig);

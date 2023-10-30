@@ -5,7 +5,7 @@ import React from "react";
 import { useAuthState } from "react-firebase-hooks/auth";
 
 // Importa os objetos "auth" e "db" do módulo "../../services/firebase"
-import { auth, db } from "../../services.firebase";
+import { auth, db } from "../../services/firebase";
 
 // Importa todos os membros do módulo "./styles" e os renomeia para "C"
 import * as C from "./styles";
